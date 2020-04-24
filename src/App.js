@@ -36,6 +36,7 @@ class App extends Component {
       return task;
     });
     this.setState({tasks: newTasks})
+    console.log(newTasks);
   }
 
   render() {
